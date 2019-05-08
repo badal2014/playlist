@@ -1,0 +1,32 @@
+[
+    {
+     "playlist" : "Surprise Without Flaws",
+     "year" : "2015",
+        "songs" : [
+            {"id" : "0" ,"song" : "01. Clouds In The Forest" , "duration" : "1.35"},
+            {"id" : "1" , "song" : "02. Rat In The River", "duration" : "2.55"},
+            {"id" : "2" ,"song" : "03. Giants And Companies", "duration" : "3.55"},
+            {"id" : "3" ,"song" : "04 .Ashamed Of Light", "duration" : "4.65"},
+            {"id" : "4" ,"song" : "05. Doubting The Forest", "duration" : "3.35"},
+            {"id" : "5" ,"song" : "06. Criminals Of the Lake", "duration" : "5.50"},
+            {"id" : "6" ,"song" : "07. Curse Of Eternity", "duration" : "2.30"},
+            {"id" : "7" ,"song" : "08. Fog In My Town", "duration" : "1.50"},
+            {"id" : "8" ,"song" : "09. Serpent In The Mountains", "duration" : "2.00"}
+        ]
+     } ,
+     {
+        "playlist" : "Mist Of A Shadow",
+        "year" : "2016",
+           "songs" : [
+               {"id" : "1" , "song" : "01. Shape Of You","play" : "takiTaki7", "duration" : "1.35"},
+               {"id" : "0" ,"song" : "02. Taki Taki", "play" : "takiTaki", "duration" : "1.35"},
+               {"id" : "2" ,"song" : "03. No Frauds", "play" : "takiTaki6","duration" : "1.35"},
+               {"id" : "3" ,"song" : "04. I Don’t Wanna Live Forever","play" : "takiTaki8", "duration" : "1.35"},
+               {"id" : "4" ,"song" : "05. Perfect","play" : "takiTaki5", "duration" : "1.35"},
+               {"id" : "5" ,"song" : "06. Let Me Love You","play" : "takiTaki4", "duration" : "1.35"},
+               {"id" : "6" ,"song" : "07. Wake Me Up", "play" : "takiTaki3","duration" : "1.35"},
+               {"id" : "7" ,"song" : "08. Love The Way You Lie","play" : "takiTaki2", "duration" : "1.35"},
+               {"id" : "8" ,"song" : "09. Far Away", "play" : "takiTaki1","duration" : "1.35"}
+           ]
+    }
+]

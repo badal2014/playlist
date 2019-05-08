@@ -1,0 +1,12 @@
+[
+    {
+        "Heading": "Meet Our Band",
+        "img": "/static/media/boy.50a353c1.png",
+        "Content":  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+    },
+    {
+        "Heading": "Meet Our Band 2",
+        "img": "./assets/cd.png",
+        "Content":  " text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s "
+    }
+]

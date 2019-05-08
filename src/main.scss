@@ -1,0 +1,175 @@
+.pad-0{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.fontW600{
+    font-weight: 600;
+}
+.cursorPointer{
+    cursor: pointer;
+}
+.m-top-0{
+    margin-top: 0;
+}
+.m-top-20{
+    margin-top: 20px;
+}
+.m-top-25{
+    margin-top: 25px;
+}
+.textRight{
+    text-align: right;
+}
+.textCenter{
+    text-align: center;
+}
+
+
+
+.bottomApp{
+    padding:0px 50px;
+}
+.songs h3{
+    font-weight: 400;
+}
+.nowPlaying h3{
+    font-weight: 400;
+}
+.slider img{
+    height: 440px;
+    width: auto;
+}
+.slider{
+    height: 72vh;
+    background: #f9f3f3;
+}
+.slider .sliderContent{
+    padding:50px 0px 0px 0px;
+    text-align: right;
+    height: 100%;
+}
+.sliderRight{
+    height: 100%;
+    display:flex;
+    align-items: center;
+}
+.sliderRight .text{
+    text-align: left;
+}
+.sliderRight .text h2 {
+    text-align: center; 
+    font-size: 24px;
+    font-family: inherit;
+}
+.sliderRight .text p{
+    text-align: center;
+    font-size: 14px;
+    font-family: inherit;
+    line-height: 3;
+    margin-top: 33px;
+}
+.playList{
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+.songPlaying img{
+    height: 200px;
+}
+.playList .songs{
+    width:80%;
+}
+.playList .songs p span{
+    float: right;
+    font-weight: 500;
+}
+.playList .songs img{
+    height: 15px;
+    margin-right: 10px;
+}
+.playList .playListmain{
+    width:75%;  
+}
+.playListinfo{
+    display: inline-block;
+    float: right;
+}
+.playListinfo span{
+    margin-right: 20px;
+    position: relative;
+    font-size: 16px;
+    font-weight: 100;
+}
+.playListinfo button{
+    margin-right: 10px;
+}
+.playListinfo span::before{
+    content: "";
+    position: absolute;
+    background: #ddd;
+    height: 15px;
+    width:15px;
+    color: #ddd;
+    left: -50px;
+    top: 0;
+    border-radius: 50%;
+}
+.playListName{
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0px;
+    display: inline-block;
+}
+.listenBtn{
+    background: #e5dddb;
+    border: 0;
+    color: #A52A2A;
+}
+.listenBtn:focus ,.buyBtn:focus{
+    outline: none;
+}
+.buyBtn{
+    color:#fff;
+    background: #9a938d;
+    border: 0px;
+    width: 60px;
+}
+.sliderContent h1{
+    position: absolute;
+    top: 50%;
+    right: 47px;
+    text-align: center;
+    color: #826b5f;
+    font-weight: bold;
+    font-size: 55px;
+}
+.sliderContent h1 span{
+    color: #443e3b;
+}
+.leftArrow{
+    position: absolute;
+    top: 34%;
+    left: 12%;
+    
+}
+.leftArrow img{
+    height: 70px;
+    cursor: pointer;
+}
+.rightArrow{
+    position: absolute;
+    top: 34%;
+    right: 12%;
+}
+.rightArrow img{
+    height: 70px;
+    cursor: pointer;
+}
+.animation{
+    transition: 1s;
+    animation: mynewmove 1s;
+}
+@keyframes  mynewmove {
+    0% {opacity: 0}
+    100% { opacity: 1}
+}
