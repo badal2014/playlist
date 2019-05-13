@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "./static/css/main.0622a4cf.chunk.css",
+    "main.js": "./static/js/main.fe312a0f.chunk.js",
+    "main.js.map": "./static/js/main.fe312a0f.chunk.js.map",
+    "runtime~main.js": "./static/js/runtime~main.d653cc00.js",
+    "runtime~main.js.map": "./static/js/runtime~main.d653cc00.js.map",
+    "static/js/2.14dd24ba.chunk.js": "./static/js/2.14dd24ba.chunk.js",
+    "static/js/2.14dd24ba.chunk.js.map": "./static/js/2.14dd24ba.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.68de2f64eeeb5fa8b38c92e1758cbcb5.js": "./precache-manifest.68de2f64eeeb5fa8b38c92e1758cbcb5.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.0622a4cf.chunk.css.map": "./static/css/main.0622a4cf.chunk.css.map",
+    "static/media/back.svg": "./static/media/back.290174b6.svg",
+    "static/media/boy.png": "./static/media/boy.50a353c1.png",
+    "static/media/cd.png": "./static/media/cd.b1a126d9.png",
+    "static/media/play-button empty.svg": "./static/media/play-button empty.465777c3.svg",
+    "static/media/play-button.svg": "./static/media/play-button.372e6e01.svg",
+    "static/media/right-arrow.svg": "./static/media/right-arrow.1ee4c3ee.svg"
+  }
+}

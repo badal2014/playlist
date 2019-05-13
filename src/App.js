@@ -2,7 +2,7 @@ import React from 'react';
 import './App.scss';
 import data from './data.json';
 import slide from './slider.json';
-// import boyImg from './assets/boy.png';
+import boyImg from './assets/boy.png';
 import cdImg from './assets/cd.png';
 import playBtn from './assets/play-button.svg';
 import emptyPlayIcon from './assets/play-button empty.svg';
@@ -69,7 +69,7 @@ class App extends React.Component {
               <div className="leftArrow">
                 <img src={leftArrow} alt="slidercontrol" id="leftShift" onClick={(e) => this.slideContent(e)} />
               </div>
-              <img src={slide[0].img} alt="boy"/>
+              <img src={boyImg} alt="boy"/>
               <h1>CURT<br /><span>SHEARD</span></h1>
             </div>
             <div className="col-md-6 sliderRight">
