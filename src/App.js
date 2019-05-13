@@ -2,7 +2,7 @@ import React from 'react';
 import './App.scss';
 import data from './data.json';
 import slide from './slider.json';
-import boyImg from './assets/boy.png';
+// import boyImg from './assets/boy.png';
 import cdImg from './assets/cd.png';
 import playBtn from './assets/play-button.svg';
 import emptyPlayIcon from './assets/play-button empty.svg';
@@ -39,7 +39,7 @@ class App extends React.Component {
   slideContent(e) {
     // document.getElementById("animate").classList.remove ("animation");
     let id = e.target.id;
-    if (id == "leftShift") {
+    if (id === "leftShift") {
       if (this.state.count > 0) {
         // document.getElementById("animate").classList.add ("animation");
         this.setState({
@@ -67,7 +67,7 @@ class App extends React.Component {
           <div className="sliderContent">
             <div className="col-md-6">
               <div className="leftArrow">
-                <img src={leftArrow} id="leftShift" onClick={(e) => this.slideContent(e)} />
+                <img src={leftArrow} alt="slidercontrol" id="leftShift" onClick={(e) => this.slideContent(e)} />
               </div>
               <img src={slide[0].img} alt="boy"/>
               <h1>CURT<br /><span>SHEARD</span></h1>
@@ -77,7 +77,7 @@ class App extends React.Component {
                 <h2>{slide[this.state.count].Heading} </h2>
                 <p>{slide[this.state.count].Content}</p>
                 <div className="rightArrow">
-                  <img src={rightArrow} id="rightShift" onClick={(e) => this.slideContent(e)} />
+                  <img src={rightArrow} alt="slidercontrol" id="rightShift" onClick={(e) => this.slideContent(e)} />
                 </div>
               </div>
             </div>
